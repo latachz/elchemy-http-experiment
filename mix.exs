@@ -1,5 +1,6 @@
 defmodule ElchemyWeb.Mixfile do
   use Mix.Project
+  @compile :tuple_calls
 
   def project do
     [app: :elchemy_web,
